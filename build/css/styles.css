@@ -627,6 +627,107 @@ body {
 	vertical-align: middle;
 }
 
+.game-summary {
+	font-family: "RobotoRegular";
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 60px;
+	background-color: #f8f8f8;
+}
+
+.game-summary img {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.game-summary p {
+	display: block;
+	font-size: 100%;
+	color: #ff6c00;
+	width: 70%;
+	text-align: left;
+	margin: 0;
+}
+
+.game-summary h3 {
+	display: block;
+	font-weight: lighter;
+	text-align: center;
+	color: #444;
+	font-size: 120%;
+}
+
+.game-summary .button-end {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ff6c00;
+	border-radius: 5px;
+	border-color: #ffac60;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.game-summary .button-back {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 5px;
+	border-color: #bbb;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.game-summary button {
+	height: 35px;
+	width: 150px;
+}
+
+.game-summary .buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+.game-summary .score {
+	display: block;
+	position: relative;
+	background-color: #fff;
+	color: #ccc;
+	border: solid 1px #ddd;
+	max-width: 280px;
+	width: 100%;
+	height: 170px;
+	margin: 30px auto;
+}
+
+.game-summary .score__number {
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	color: #ff6c00;
+}
+
+.game-summary ul {
+	display: block;
+	font-family: "RobotoRegular";
+	font-weight: lighter;
+	font-size: 75%;
+	list-style-type: decimal;
+	color: #444;
+}
+
+.game-summary li {
+	margin-bottom: 5px;
+}
+
 @font-face {
 	font-family: "RobotoRegular";
 	src: url("../fonts/roboto-regular.woff") format("truetype");
@@ -677,6 +778,11 @@ body {
 
 .saved-games .options {
 	display: none;
+}
+
+.game-summary {
+	width: 260px;
+	height: 390px;
 }
 
 }
@@ -736,6 +842,21 @@ body {
 
 .saved-games .icon {
 	width: 30px;
+}
+
+.game-summary {
+	width: 420px;
+	height: 710px;
+	font-size: 130%;
+	padding-top: 60px;
+}
+
+.game-summary button {
+	height: 40px;
+}
+
+.game-summary p {
+	text-align: center;
 }
 
 }
@@ -913,6 +1034,50 @@ body {
 
 .saved-games .statistics__element:nth-of-type(1) {
 	padding-left: 0;
+}
+
+.game-summary {
+	width: 280px;
+	height: 350px;
+	font-size: 120%;
+	padding-top: 30px;
+	background-color: #fff;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	margin-top: 100px;
+	margin-bottom: 223px;
+}
+
+.game-summary img {
+	display: none;
+}
+
+.game-summary h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 140%;
+}
+
+.game-summary p {
+	font-size: 110%;
+	margin-top: 30px;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.game-summary button {
+	width: 120px;
+	height: 35px;
+}
+
+.game-summary .buttons {
+	display: flex;
+	flex-direction: row;
+	font-size: 80%;
+}
+
+.game-summary .score {
+	margin-top: 10px;
 }
 
 }
