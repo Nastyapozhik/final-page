@@ -670,7 +670,6 @@ body {
 	background-color: #ff6c00;
 	border-radius: 5px;
 	border-color: #ffac60;
-	margin: 0px auto;
 	text-align: center;
 }
 
@@ -682,13 +681,13 @@ body {
 	background-color: #ccc;
 	border-radius: 5px;
 	border-color: #bbb;
-	margin: 0 auto;
 	text-align: center;
 }
 
 .game-summary button {
 	height: 35px;
 	width: 150px;
+	margin: 5px auto;
 }
 
 .game-summary .buttons {
