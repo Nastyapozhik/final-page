@@ -3,7 +3,7 @@ $light-grey: #f8f8f8;
 $orange: #ff6c00;
 $grey: #444;
 
-.saved-games-1 {
+.create-new-game {
   font-family: "RobotoRegular";
   display: flex;
   flex-direction: column;
@@ -20,7 +20,16 @@ $grey: #444;
     top: 20px;
   }
 
-  .saved-game, .create-game, .my-account {
+  .create-game {
+    order: -1;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .saved-game, .create-game {
     display: flex;
     font-family: "RobotoLight";
     background-color: $white;
@@ -44,23 +53,51 @@ $grey: #444;
       font-size: 110%;
     }
   }
+  .button-create {
+    display: block;
+    font-family: "UbuntuMedium";
+    font-size: 90%;
+    color: $white;
+    background-color: $orange ;
+    border-radius: 5px;
+    border-color: #ffac60;
+    text-align: center;
+  }
+
+  .button-cancel {
+    display: block;
+    font-family: "UbuntuMedium";
+    font-size: 90%;
+    color: $white;
+    background-color: #ccc ;
+    border-radius: 5px;
+    border-color: #bbb;
+    text-align: center;
+    margin-top: 100px;
+  }
+  button {
+    height: 35px;
+    width: 160px;
+    margin: 10px auto;
+  }
+
 }
 
 @media only screen and (min-width: 320px) {
-  .saved-games-1 {
+  .create-new-game {
     width: 260px;
     height: 390px;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  .saved-games-1 {
+  .create-new-game {
     width: 420px;
     height: 710px;
-    font-size: 140%;
+    font-size: 130%;
     padding-top: 60px;
 
-    .saved-game, .create-game, .my-account {
+    .saved-game, .create-game {
       margin-top: 10px;
       margin-bottom: 20px;
       height: 50px;
@@ -73,7 +110,7 @@ $grey: #444;
 }
 
 @media only screen and (min-width: 768px) {
-  .saved-games-1 {
+  .create-new-game {
     width: 470px;
     height: 283px;
     font-size: 120%;
@@ -84,6 +121,18 @@ $grey: #444;
     margin-top: 50px;
     margin-bottom: 340px;
 
+    .saved-game, .create-game {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      height: 50px;
+      padding-left: 10px;
+    }
+    button {
+      margin-top: 20px;
+    }
+    .button-cancel {
+      margin-top: 20px;
+    }
     img {
       display: none;
     }
