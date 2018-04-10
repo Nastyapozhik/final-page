@@ -1,0 +1,253 @@
+$white: #fff;
+$light-grey: #f8f8f8;
+$orange: #ff6c00;
+$grey: #444;
+
+.create-new-game-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 786px;
+    .options-1 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  .create-new-game-form {
+    font-family: "RobotoRegular";
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 60px;
+    background-color: $light-grey;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .saved-game, .create-game {
+    display: flex;
+    font-family: "RobotoLight";
+    background-color: $white;
+    border-right: solid 2px #ddd;
+    border-bottom: solid 2px #ddd;
+    vertical-align: middle;
+    height: 40px;
+    padding-left: 10px;
+    margin: 5px;
+    p {
+      display: block;
+      margin: auto 10px;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 80%;
+      color: #888;
+      width: 70%;
+      color: $grey;
+      text-decoration: none;
+      padding: 0;
+      font-size: 110%;
+    }
+  }
+
+  .saved-game-1, .create-game-1 {
+    display: flex;
+    font-family: "RobotoLight";
+    background-color: $white;
+    border-right: solid 2px #ddd;
+    border-bottom: solid 2px #ddd;
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    margin: 5px;
+    p {
+      display: block;
+      margin: auto 10px;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 80%;
+      color: #888;
+      width: 70%;
+      color: $grey;
+      text-decoration: none;
+      padding: 0;
+      font-size: 110%;
+    }
+  }
+
+  .button-create {
+    display: block;
+    font-family: "UbuntuMedium";
+    font-size: 90%;
+    color: $white;
+    background-color: $orange ;
+    border-radius: 5px;
+    border-color: #ffac60;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .button-cancel {
+    display: block;
+    font-family: "UbuntuMedium";
+    font-size: 90%;
+    color: $white;
+    background-color: #ccc ;
+    border-radius: 5px;
+    border-color: #bbb;
+    text-align: center;
+    margin-top: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    svg {
+      margin: 0 auto 10px auto;
+    }
+  }
+
+  input {
+    margin: 5px 0 20px 0;
+    outline: none;
+    border: solid 1px #bbb;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: #555;
+    font-size: 90%;
+    background-color: $light-grey;
+  }
+  input::placeholder {
+    font-family: "RobotoLight";
+    font-size: 95%;
+  }
+
+  h3 {
+    text-align: center;
+    color: #444;
+  }
+  button {
+    display: block;
+    font-family: "UbuntuMedium";
+    font-size: 80%;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background-color: $orange ;
+    border-radius: 5px;
+    border-color: #ffac60;
+  }
+  label {
+    color: $orange;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .create-new-game-1 {
+    .create-new-game-form {
+      width: 260px;
+      height: 480px;
+    }
+    button {
+      height: 40px;
+    }
+    .options-1 {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .create-new-game-1 {
+    .create-new-game-form {
+      width: 420px;
+      height: 710px;
+      font-size: 130%;
+      padding-top: 60px;
+      .saved-game, .create-game {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 50px;
+        padding-left: 10px;
+      }
+    }
+    .icon {
+      width: 30px;
+    }
+    .description {
+      height: 80px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .create-new-game-1 {
+    .create-new-game-form {
+      width: 470px;
+      height: 553px;
+      font-size: 120%;
+      padding-top: 30px;
+      border-right: solid 2px #ddd;
+      border-bottom: solid 2px #ddd;
+      background-color: $white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .options-1 {
+      display: flex;
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .saved-game, .create-game {
+      display: none;
+    }
+    .button-cancel {
+      margin-top: 10px;
+    }
+    img {
+      display: none;
+    }
+    input {
+      margin: 10px 0 20px 0;
+      border: solid 2px #eee;
+      height: 25px;
+      background-color: $white;
+    }
+    h3 {
+      margin-top: 0px;
+      font-size: 150%;
+      font-weight: lighter;
+    }
+    button {
+      margin: auto;
+      width: 150px;
+      height: 35px;
+      font-size: 80%;
+    }
+    input::placeholder {
+      color: #ccc;
+      padding-left: 10px;
+    }
+  }
+}

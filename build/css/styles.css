@@ -621,6 +621,275 @@ body {
 	margin-bottom: 5px;
 }
 
+.create-new-game {
+	font-family: "RobotoRegular";
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 60px;
+	background-color: #f8f8f8;
+}
+
+.create-new-game img {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.create-new-game .create-game {
+	order: -1;
+}
+
+.create-new-game .options {
+	display: flex;
+	flex-direction: column;
+}
+
+.create-new-game .saved-game,
+.create-new-game .create-game {
+	display: flex;
+	font-family: "RobotoLight";
+	background-color: #fff;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	vertical-align: middle;
+	height: 40px;
+	padding-left: 10px;
+	margin: 5px;
+}
+
+.create-new-game .saved-game p,
+.create-new-game .create-game p {
+	display: block;
+	margin: auto 10px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 80%;
+	color: #888;
+	width: 70%;
+	color: #444;
+	text-decoration: none;
+	padding: 0;
+	font-size: 110%;
+}
+
+.create-new-game .button-create {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ff6c00;
+	border-radius: 5px;
+	border-color: #ffac60;
+	text-align: center;
+}
+
+.create-new-game .button-cancel {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 5px;
+	border-color: #bbb;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.create-new-game button {
+	height: 35px;
+	width: 160px;
+	margin: 10px auto;
+}
+
+.create-new-game-1 {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	max-width: 786px;
+}
+
+.create-new-game-1 .options-1 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.create-new-game-1 .create-new-game-form {
+	font-family: "RobotoRegular";
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;
+	padding-top: 60px;
+	background-color: #f8f8f8;
+}
+
+.create-new-game-1 .buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+.create-new-game-1 img {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.create-new-game-1 .options {
+	display: flex;
+	flex-direction: column;
+}
+
+.create-new-game-1 .saved-game,
+.create-new-game-1 .create-game {
+	display: flex;
+	font-family: "RobotoLight";
+	background-color: #fff;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	vertical-align: middle;
+	height: 40px;
+	padding-left: 10px;
+	margin: 5px;
+}
+
+.create-new-game-1 .saved-game p,
+.create-new-game-1 .create-game p {
+	display: block;
+	margin: auto 10px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 80%;
+	color: #888;
+	width: 70%;
+	color: #444;
+	text-decoration: none;
+	padding: 0;
+	font-size: 110%;
+}
+
+.create-new-game-1 .saved-game-1,
+.create-new-game-1 .create-game-1 {
+	display: flex;
+	font-family: "RobotoLight";
+	background-color: #fff;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	vertical-align: middle;
+	height: 40px;
+	width: 200px;
+	padding-left: 10px;
+	margin: 5px;
+}
+
+.create-new-game-1 .saved-game-1 p,
+.create-new-game-1 .create-game-1 p {
+	display: block;
+	margin: auto 10px;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 80%;
+	color: #888;
+	width: 70%;
+	color: #444;
+	text-decoration: none;
+	padding: 0;
+	font-size: 110%;
+}
+
+.create-new-game-1 .button-create {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ff6c00;
+	border-radius: 5px;
+	border-color: #ffac60;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.create-new-game-1 .button-cancel {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 90%;
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 5px;
+	border-color: #bbb;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.create-new-game-1 form {
+	display: flex;
+	flex-direction: column;
+}
+
+.create-new-game-1 form svg {
+	margin: 0 auto 10px auto;
+}
+
+.create-new-game-1 input {
+	margin: 5px 0 20px 0;
+	outline: none;
+	border: solid 1px #bbb;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	color: #555;
+	font-size: 90%;
+	background-color: #f8f8f8;
+}
+
+.create-new-game-1 input::-webkit-input-placeholder {
+	font-family: "RobotoLight";
+	font-size: 95%;
+}
+
+.create-new-game-1 input:-ms-input-placeholder {
+	font-family: "RobotoLight";
+	font-size: 95%;
+}
+
+.create-new-game-1 input::-ms-input-placeholder {
+	font-family: "RobotoLight";
+	font-size: 95%;
+}
+
+.create-new-game-1 input::placeholder {
+	font-family: "RobotoLight";
+	font-size: 95%;
+}
+
+.create-new-game-1 h3 {
+	text-align: center;
+	color: #444;
+}
+
+.create-new-game-1 button {
+	display: block;
+	font-family: "UbuntuMedium";
+	font-size: 80%;
+	margin: auto;
+	width: 150px;
+	height: 30px;
+	color: #fff;
+	background-color: #ff6c00;
+	border-radius: 5px;
+	border-color: #ffac60;
+}
+
+.create-new-game-1 label {
+	color: #ff6c00;
+}
+
 @font-face {
 	font-family: "RobotoRegular";
 	src: url("../fonts/roboto-regular.woff") format("truetype");
@@ -672,6 +941,24 @@ body {
 .game-summary {
 	width: 260px;
 	height: 390px;
+}
+
+.create-new-game {
+	width: 260px;
+	height: 390px;
+}
+
+.create-new-game-1 .create-new-game-form {
+	width: 260px;
+	height: 480px;
+}
+
+.create-new-game-1 button {
+	height: 40px;
+}
+
+.create-new-game-1 .options-1 {
+	display: none;
 }
 
 }
@@ -731,6 +1018,48 @@ body {
 
 .game-summary p {
 	text-align: center;
+}
+
+.create-new-game {
+	width: 420px;
+	height: 710px;
+	font-size: 130%;
+	padding-top: 60px;
+}
+
+.create-new-game .saved-game,
+.create-new-game .create-game {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.create-new-game .icon {
+	width: 30px;
+}
+
+.create-new-game-1 .create-new-game-form {
+	width: 420px;
+	height: 710px;
+	font-size: 130%;
+	padding-top: 60px;
+}
+
+.create-new-game-1 .create-new-game-form .saved-game,
+.create-new-game-1 .create-new-game-form .create-game {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.create-new-game-1 .icon {
+	width: 30px;
+}
+
+.create-new-game-1 .description {
+	height: 80px;
 }
 
 }
@@ -893,6 +1222,112 @@ body {
 
 .game-summary .score {
 	margin-top: 10px;
+}
+
+.create-new-game {
+	width: 470px;
+	height: 283px;
+	font-size: 120%;
+	padding-top: 30px;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	background-color: #fff;
+	margin-top: 50px;
+	margin-bottom: 340px;
+}
+
+.create-new-game .saved-game,
+.create-new-game .create-game {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.create-new-game button {
+	margin-top: 20px;
+}
+
+.create-new-game .button-cancel {
+	margin-top: 20px;
+}
+
+.create-new-game img {
+	display: none;
+}
+
+.create-new-game-1 .create-new-game-form {
+	width: 470px;
+	height: 553px;
+	font-size: 120%;
+	padding-top: 30px;
+	border-right: solid 2px #ddd;
+	border-bottom: solid 2px #ddd;
+	background-color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.create-new-game-1 .options-1 {
+	display: flex;
+}
+
+.create-new-game-1 .buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+.create-new-game-1 .saved-game,
+.create-new-game-1 .create-game {
+	display: none;
+}
+
+.create-new-game-1 .button-cancel {
+	margin-top: 10px;
+}
+
+.create-new-game-1 img {
+	display: none;
+}
+
+.create-new-game-1 input {
+	margin: 10px 0 20px 0;
+	border: solid 2px #eee;
+	height: 25px;
+	background-color: #fff;
+}
+
+.create-new-game-1 h3 {
+	margin-top: 0px;
+	font-size: 150%;
+	font-weight: lighter;
+}
+
+.create-new-game-1 button {
+	margin: auto;
+	width: 150px;
+	height: 35px;
+	font-size: 80%;
+}
+
+.create-new-game-1 input::-webkit-input-placeholder {
+	color: #ccc;
+	padding-left: 10px;
+}
+
+.create-new-game-1 input:-ms-input-placeholder {
+	color: #ccc;
+	padding-left: 10px;
+}
+
+.create-new-game-1 input::-ms-input-placeholder {
+	color: #ccc;
+	padding-left: 10px;
+}
+
+.create-new-game-1 input::placeholder {
+	color: #ccc;
+	padding-left: 10px;
 }
 
 }

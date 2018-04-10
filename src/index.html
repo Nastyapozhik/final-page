@@ -31,22 +31,70 @@
     </nav>
   </header>
 
-  <main class="registration">
-    <img src="img/goit.png" alt="goit">
-    <form action="#" method="get">
-      <h3>Register</h3>
-      <label for="first-name"> First name </label>
-      <input type="text" placeholder=" Name" id="first-name">
-      <label for="last-name"> Last name </label>
-      <input type="text" placeholder=" Surname" id="last-name">
-      <label for="player-name"> Player name </label>
-      <input type="text" placeholder=" nickname" id="player-name">
-      <label for="email"> Email </label>
-      <input type="text" placeholder=" 123mail@gmail.com" id="email">
-      <label for="password"> Password </label>
-      <input type="password" placeholder=" ******" id="password">
-      <button type="submit"> Продолжить </button>
-    </form>
+  <main class="create-new-game-1">
+    <div class="options-1">
+      <div class="create-game-1">
+        <svg class="icon 2" id="create-game-svg-1" viewBox="0 0 128 128" width="20" xmlns="http://www.w3.org/2000/svg">
+          <style>.st0{fill:#ff6c00;}.st1{fill:#FFF}
+          </style>
+          <circle class="st0" cx="64" cy="64" r="64"/>
+          <path class="st1" d="M103 57H71V25c0-.6-.4-1-1-1H58c-.6 0-1 .4-1 1v32H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h32v32c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V71h32c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1z"/>
+        </svg>
+        <p>Create new game</p>
+      </div>
+      <div class="saved-game-1">
+        <svg class="icon 1" id="saved-game-svg-1" viewBox="0 0 128 128" width="20" xmlns="http://www.w3.org/2000/svg">
+          <style>.st0{fill:#ff6c00}.st1{fill:#FFF}
+          </style>
+          <circle class="st0" cx="64" cy="64" r="64"/>
+          <path class="st1" d="M103 29H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V30c0-.6-.4-1-1-1zM103 57H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1zM103 85H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V86c0-.6-.4-1-1-1zM37 29H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V30c0-.6-.4-1-1-1zM37 57H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1zM37 85H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V86c0-.6-.4-1-1-1z"/>
+        </svg>
+         <p>Saved games</p>
+      </div>
+    </div>
+    <div class="create-new-game-form">
+      <img src="img/goit.png" alt="goit" style="width:80px">
+      <h3>Create New Game</h3>
+      <div class="options">
+        <div class="create-game">
+          <svg class="icon 2" id="create-game-svg-2" viewBox="0 0 128 128" width="20" xmlns="http://www.w3.org/2000/svg">
+            <style>.st0{fill:#ff6c00;}.st1{fill:#FFF}
+            </style>
+            <circle class="st0" cx="64" cy="64" r="64"/>
+            <path class="st1" d="M103 57H71V25c0-.6-.4-1-1-1H58c-.6 0-1 .4-1 1v32H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h32v32c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V71h32c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1z"/>
+          </svg>
+          <p>Create new game</p>
+        </div>
+      </div>
+      <form action="#" method="get">
+        <label for="create-game"> Create game </label>
+        <input type="text" placeholder="Create game" id="create-game">
+        <label for="description"> Description </label>
+        <input class="description" type="text" placeholder="Description" id="description">
+        <label for="add-questions">Add questions </label>
+        <input type="text" placeholder="Add questions" id="add-questions">
+        <svg class="icon 3" id="create-game-svg" viewBox="0 0 128 128" width="20" xmlns="http://www.w3.org/2000/svg">
+          <style>.st0{fill:#ff6c00;}.st1{fill:#FFF}
+          </style>
+          <circle class="st0" cx="64" cy="64" r="64"/>
+          <path class="st1" d="M103 57H71V25c0-.6-.4-1-1-1H58c-.6 0-1 .4-1 1v32H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h32v32c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V71h32c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1z"/>
+        </svg>
+        <input type="text" placeholder="No questions" id="email">
+      </form>
+      <div class="saved-game">
+        <svg class="icon 1" id="saved-game-svg" viewBox="0 0 128 128" width="20" xmlns="http://www.w3.org/2000/svg">
+          <style>.st0{fill:#ff6c00}.st1{fill:#FFF}
+          </style>
+          <circle class="st0" cx="64" cy="64" r="64"/>
+          <path class="st1" d="M103 29H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V30c0-.6-.4-1-1-1zM103 57H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1zM103 85H53c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h50c.6 0 1-.4 1-1V86c0-.6-.4-1-1-1zM37 29H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V30c0-.6-.4-1-1-1zM37 57H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V58c0-.6-.4-1-1-1zM37 85H25c-.6 0-1 .4-1 1v12c0 .6.4 1 1 1h12c.6 0 1-.4 1-1V86c0-.6-.4-1-1-1z"/>
+        </svg>
+         <p>Saved games</p>
+      </div>
+      <div class="buttons">
+        <button class="button-cancel">Cancel</button>
+        <button class="button-create">Create game</button>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">
